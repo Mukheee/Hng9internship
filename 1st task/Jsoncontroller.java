@@ -17,7 +17,7 @@ public class StudentController {
 	@GetMapping("/get")
 	//@RequestMapping(value = "/get", method = RequestMethod.GET)
 	public StudentResponse jsonResponse () {
-		StudentResponse studentResponse = new StudentResponse(1, "John", "Smith");
+		StudentResponse studentResponse = new StudentResponse("mukheee", "True", 25, "A young aspiring developer");
 		return studentResponse;
 	}
 }
